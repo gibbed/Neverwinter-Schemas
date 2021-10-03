@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="CachedBossEntity">
+  <table>
+    <column name="CachedBossEntity" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Entref" type="INT">
+      <offset>0</offset>
+    </column>
+    <column name="Entity" type="OPTIONALSTRUCT">
+      <offset>8</offset>
+      <subtable external="Entity" />
+    </column>
+    <column name="Name" type="STRING">
+      <offset>16</offset>
+    </column>
+    <column name="Logicalname" type="STRING">
+      <offset>24</offset>
+    </column>
+    <column name="Isdead" type="U8">
+      <offset>32</offset>
+      <format>INT_WAS_BOOL</format>
+    </column>
+    <column name="Vieworder" type="INT">
+      <offset>36</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>

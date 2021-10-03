@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="CharacterBackgroundGroup">
+  <table>
+    <column name="CharacterBackgroundGroup" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Name" type="STRING">
+      <offset>0</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+        <flag>STRUCTPARAM</flag>
+        <flag>KEY</flag>
+      </flags>
+    </column>
+    <column name="File" type="CURRENTFILE">
+      <offset>8</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="DisplayName" type="EMBEDDEDSTRUCT">
+      <offset>16</offset>
+      <subtable external="DisplayMessage" />
+    </column>
+    <column name="Flavortext" type="EMBEDDEDSTRUCT">
+      <offset>40</offset>
+      <subtable external="DisplayMessage" />
+    </column>
+    <column name="Texture" type="STRING">
+      <offset>64</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Granteditem" type="STRINGARRAY">
+      <offset>72</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+        <flag>GLOBAL_NAME</flag>
+      </flags>
+      <dictionary_name>ItemDef</dictionary_name>
+    </column>
+    <column name="Xpercent" type="F32">
+      <offset>80</offset>
+    </column>
+    <column name="Ypercent" type="F32">
+      <offset>84</offset>
+    </column>
+    <column name="Backgrounds" type="STRUCT">
+      <offset>88</offset>
+      <subtable external="CharacterBackgroundChoice" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>

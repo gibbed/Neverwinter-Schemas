@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parse name="CostumeUIPip">
+  <table>
+    <column name="CostumeUIPip" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="X" type="F32">
+      <offset>0</offset>
+    </column>
+    <column name="Y" type="F32">
+      <offset>4</offset>
+    </column>
+    <column name="Offsetx" type="INT">
+      <offset>8</offset>
+    </column>
+    <column name="Offsety" type="INT">
+      <offset>12</offset>
+    </column>
+    <column name="Wiggley" type="INT">
+      <offset>16</offset>
+    </column>
+    <column name="Linetypemask" type="INT">
+      <offset>20</offset>
+    </column>
+    <column name="Bonemask" type="STRING">
+      <offset>24</offset>
+    </column>
+    <column name="Addregions" type="STRING">
+      <offset>32</offset>
+    </column>
+    <column name="Scalegroups" type="STRING">
+      <offset>40</offset>
+    </column>
+    <column name="Bodyscales" type="STRING">
+      <offset>48</offset>
+    </column>
+    <column name="Positionbone" type="STRING">
+      <offset>56</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Namemessage" type="STRING">
+      <offset>64</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Linesrequired" type="INT">
+      <offset>72</offset>
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parse>
