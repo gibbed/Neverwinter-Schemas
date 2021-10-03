@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="LauncherQueryCommands">
+  <parent>FromControllerMsg</parent>
+  <elements type="int">
+    <element name="REGISTEREXISTINGPROCESS">36</element>
+    <element name="STARTPROCESS">37</element>
+    <element name="GAMEVERSION">38</element>
+    <element name="KILLPROCESS">39</element>
+    <element name="HIDEPROCESS">40</element>
+    <element name="IGNOREPROCESS">41</element>
+    <element name="SETDIRECTORYCONTENTS__DEPRECATED">42</element>
+    <element name="GETAMANUALDUMP__DEPRECATED">43</element>
+    <element name="HEREARELOCALEXECRCS">44</element>
+    <element name="HEREAREREQUESTEDEXES">45</element>
+    <element name="CONTROLLERTIME">46</element>
+    <element name="VERBOSEPROCLISTLOGGING">47</element>
+    <element name="BEGINGETTINGFILES">48</element>
+    <element name="HEREAREREQUESTEDBYTESFROMFILE">49</element>
+    <element name="KILLALLBYNAME">50</element>
+    <element name="REQUEST_DYN_HOG_PRUNING">51</element>
+    <element name="REQUEST_LAUNCH_AND_QUERY_PROCESS">52</element>
+    <element name="SETLOGSERVER">53</element>
+    <element name="FILEREQUESTFULFILLED">54</element>
+    <element name="LAUNCH_OR_KILL_PROFILER">55</element>
+    <element name="BEGIN_MIRRORING_DIRECTORY">56</element>
+  </elements>
+</enum>

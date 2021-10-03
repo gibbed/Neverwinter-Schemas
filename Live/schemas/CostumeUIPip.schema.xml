@@ -13,44 +13,44 @@
     <column name="Y" type="F32">
       <offset>4</offset>
     </column>
-    <column name="OffsetX" type="INT">
+    <column name="Offsetx" type="INT">
       <offset>8</offset>
     </column>
-    <column name="OffsetY" type="INT">
+    <column name="Offsety" type="INT">
       <offset>12</offset>
     </column>
-    <column name="WiggleY" type="INT">
+    <column name="Wiggley" type="INT">
       <offset>16</offset>
     </column>
-    <column name="LineTypeMask" type="INT">
+    <column name="Linetypemask" type="INT">
       <offset>20</offset>
     </column>
-    <column name="BoneMask" type="STRING">
+    <column name="Bonemask" type="STRING">
       <offset>24</offset>
     </column>
-    <column name="AddRegions" type="STRING">
-      <offset>28</offset>
-    </column>
-    <column name="ScaleGroups" type="STRING">
+    <column name="Addregions" type="STRING">
       <offset>32</offset>
     </column>
-    <column name="BodyScales" type="STRING">
-      <offset>36</offset>
-    </column>
-    <column name="PositionBone" type="STRING">
+    <column name="Scalegroups" type="STRING">
       <offset>40</offset>
-      <flags>
-        <flag>POOL_STRING</flag>
-      </flags>
     </column>
-    <column name="NameMessage" type="STRING">
-      <offset>44</offset>
-      <flags>
-        <flag>POOL_STRING</flag>
-      </flags>
-    </column>
-    <column name="LinesRequired" type="INT">
+    <column name="Bodyscales" type="STRING">
       <offset>48</offset>
+    </column>
+    <column name="Positionbone" type="STRING">
+      <offset>56</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Namemessage" type="STRING">
+      <offset>64</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Linesrequired" type="INT">
+      <offset>72</offset>
     </column>
     <column name="}" type="END" />
   </table>

@@ -9,5 +9,10 @@
     <element name="GuildRankChange">5</element>
     <element name="GuildCreate">6</element>
     <element name="SimpleMissionComplete">7</element>
+    <element name="GuildPermEnable">8</element>
+    <element name="GuildPermDisable">9</element>
+    <element name="AllianceJoined">10</element>
+    <element name="AllianceKicked">11</element>
+    <element name="AllianceLeft">12</element>
   </elements>
 </enum>

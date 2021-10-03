@@ -2,5 +2,24 @@
 <enum name="ItemGenRarity">
   <elements type="int">
     <element name="Base">0</element>
+    <element name="Single">2</element>
+    <element name="ClassMain">3</element>
+    <element name="ClassPair">4</element>
+    <element name="Grey">5</element>
+    <element name="White">6</element>
+    <element name="Green">7</element>
+    <element name="Blue">8</element>
+    <element name="Purple">9</element>
+    <element name="Orange">10</element>
+    <element name="White_Single">11</element>
+    <element name="Green_Single">12</element>
+    <element name="Blue_Single">13</element>
+    <element name="TenacityWhite">14</element>
+    <element name="TenacityGreen">15</element>
+    <element name="TenacityBlue">16</element>
+    <element name="ClassWhite">17</element>
+    <element name="ClassGreen">18</element>
+    <element name="ClassBlue">19</element>
+    <element name="ClassGrey">20</element>
   </elements>
 </enum>

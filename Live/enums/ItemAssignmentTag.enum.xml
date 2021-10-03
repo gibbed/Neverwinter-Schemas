@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="ItemAssignmentTag">
+  <elements type="int">
+    <element name="None">0</element>
+    <element name="Chultan">1</element>
+    <element name="Consumable">2</element>
+    <element name="Event">3</element>
+    <element name="Event_Gond">4</element>
+    <element name="Finishedproduct">5</element>
+    <element name="Level_01-04">6</element>
+    <element name="Level_05-08">7</element>
+    <element name="Level_09-12">8</element>
+    <element name="Level_13-16">9</element>
+    <element name="Level_17-18">10</element>
+    <element name="Level_19-20">11</element>
+    <element name="Masterworki-ii">12</element>
+    <element name="Masterworkiii">13</element>
+    <element name="Masterworkiv-v">14</element>
+    <element name="Masterworkvi">15</element>
+    <element name="Masterworkvii">16</element>
+    <element name="Material">17</element>
+  </elements>
+</enum>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="ePetNamePrefix">
+  <elements type="int">
+    <element name="Unset_Prefix">0</element>
+  </elements>
+</enum>

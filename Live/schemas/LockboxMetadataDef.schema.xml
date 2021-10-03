@@ -7,7 +7,7 @@
       </flags>
     </column>
     <column name="{" type="START" />
-    <column name="LockboxMetadataName" type="STRING">
+    <column name="Lockboxmetadataname" type="STRING">
       <offset>0</offset>
       <flags>
         <flag>POOL_STRING</flag>
@@ -15,17 +15,17 @@
         <flag>KEY</flag>
       </flags>
     </column>
-    <column name="BannerTexture" type="STRING">
-      <offset>4</offset>
-    </column>
-    <column name="TitleMessage" type="STRING">
+    <column name="Bannertexture" type="STRING">
       <offset>8</offset>
     </column>
-    <column name="SubtitleMessage" type="STRING">
-      <offset>12</offset>
-    </column>
-    <column name="TeaserEntry" type="STRUCT">
+    <column name="Titlemessage" type="STRING">
       <offset>16</offset>
+    </column>
+    <column name="Subtitlemessage" type="STRING">
+      <offset>24</offset>
+    </column>
+    <column name="Teaserentry" type="STRUCT">
+      <offset>32</offset>
       <subtable external="LockboxTeaserEntry" />
     </column>
     <column name="}" type="END" />

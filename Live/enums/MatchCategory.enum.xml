@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="MatchCategory">
+  <elements type="int">
+    <element name="None">0</element>
+    <element name="Call_To_Arms">1</element>
+    <element name="General_Event">2</element>
+    <element name="AprilFools_Event">3</element>
+    <element name="AprilFowls_Event">4</element>
+    <element name="Anniversary_Event">5</element>
+    <element name="Midsummer_Event">6</element>
+    <element name="Dungeon">7</element>
+    <element name="Dungeon_Epic">8</element>
+    <element name="Dungeon_Epic_1">9</element>
+    <element name="Dungeon_Epic_2">10</element>
+    <element name="Skirmish_Epic">11</element>
+    <element name="Skirmish">12</element>
+    <element name="Trial">13</element>
+    <element name="Trial_Epic">14</element>
+    <element name="PvP">15</element>
+    <element name="PvP_Epic">16</element>
+    <element name="Other">17</element>
+    <element name="Heros_Accord">18</element>
+    <element name="Randomqueue_Leveling">19</element>
+    <element name="Randomqueue_Intermediate">20</element>
+    <element name="Randomqueue_Advanced">21</element>
+    <element name="Randomqueue_Expert">22</element>
+    <element name="Randomqueue_Social">23</element>
+    <element name="Randomqueue_Skirmish">24</element>
+    <element name="Randomqueue_Dungeon">25</element>
+    <element name="Randomqueue_Trial">26</element>
+  </elements>
+</enum>

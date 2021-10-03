@@ -13,29 +13,29 @@
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="DisplayNameKey" type="STRING">
-      <offset>4</offset>
-      <flags>
-        <flag>POOL_STRING</flag>
-      </flags>
-    </column>
-    <column name="FlavorTextKey" type="STRING">
+    <column name="Displaynamekey" type="STRING">
       <offset>8</offset>
       <flags>
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="TextureName" type="STRING">
-      <offset>12</offset>
+    <column name="Flavortextkey" type="STRING">
+      <offset>16</offset>
       <flags>
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="XPercent" type="F32">
-      <offset>16</offset>
+    <column name="TextureName" type="STRING">
+      <offset>24</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
     </column>
-    <column name="YPercent" type="F32">
-      <offset>20</offset>
+    <column name="Xpercent" type="F32">
+      <offset>32</offset>
+    </column>
+    <column name="Ypercent" type="F32">
+      <offset>36</offset>
     </column>
     <column name="}" type="END" />
   </table>

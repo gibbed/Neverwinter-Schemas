@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="LauncherAnswer">
+  <parent>ToControllerMsg</parent>
+  <elements type="int">
+    <element name="ANSWER_PROCESS_CLOSED">57</element>
+    <element name="ANSWER_PROCESS_CRASHED__DEPRECATED">58</element>
+    <element name="ANSWER_PROCESSES">59</element>
+    <element name="_ANSWER_CRYPTIC_ERROR_IS_FINISHED_WITH_SERVER__DEPRECATED">60</element>
+    <element name="_ANSWER_CLIENT_REQUESTS_OPEN_MONITORING_URL">61</element>
+    <element name="_ANSWER_REQUEST_FILE">62</element>
+    <element name="_ANSWER_DIRECTORY_MIRRORING_COMPLETE">63</element>
+    <element name="_ANSWER_DIRECTORY_MIRRORING_ALERT">64</element>
+    <element name="_ANSWER_DIRECTORY_MIRRORING_FAILED">65</element>
+    <element name="_ANSWER_REQUESTING_MACHINE_LOCK">66</element>
+  </elements>
+</enum>

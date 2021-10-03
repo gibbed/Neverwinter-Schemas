@@ -2,5 +2,8 @@
 <enum name="CharClassTypes">
   <elements type="int">
     <element name="CharClassTypes_None">0</element>
+    <element name="Henchmen">1</element>
+    <element name="Player">2</element>
+    <element name="Melee">3</element>
   </elements>
 </enum>

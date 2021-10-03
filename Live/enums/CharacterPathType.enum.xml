@@ -2,5 +2,6 @@
 <enum name="CharacterPathType">
   <elements type="int">
     <element name="Primary">-1</element>
+    <element name="Secondary">0</element>
   </elements>
 </enum>

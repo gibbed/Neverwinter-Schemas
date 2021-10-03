@@ -2,5 +2,37 @@
 <enum name="ItemPowerArtCategory">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Fire">1</element>
+    <element name="Frost">2</element>
+    <element name="Arcane">3</element>
+    <element name="Poison">4</element>
+    <element name="Lightning">5</element>
+    <element name="Radiant">6</element>
+    <element name="Healing">7</element>
+    <element name="Retribution">8</element>
+    <element name="Rending">9</element>
+    <element name="Paralyzing">10</element>
+    <element name="Vicious">11</element>
+    <element name="Skewering">12</element>
+    <element name="Quick">13</element>
+    <element name="Bloodclaw">14</element>
+    <element name="Inescapable">15</element>
+    <element name="Vampiric">16</element>
+    <element name="Cunning">17</element>
+    <element name="Desiccating">18</element>
+    <element name="Defensive">19</element>
+    <element name="Duelists">20</element>
+    <element name="Cloaked">21</element>
+    <element name="FootpadsFriend">22</element>
+    <element name="Jagged">23</element>
+    <element name="Battlecrazed">24</element>
+    <element name="Bilethorn">25</element>
+    <element name="Oathblade">26</element>
+    <element name="Bloodthirsty">27</element>
+    <element name="Graceful">28</element>
+    <element name="Predatory">29</element>
+    <element name="Adamantine">30</element>
+    <element name="Bloodiron">31</element>
+    <element name="Vorpal">32</element>
   </elements>
 </enum>

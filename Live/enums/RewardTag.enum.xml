@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="RewardTag">
-  <elements type="int" />
+  <elements type="int">
+    <element name="Religion">1</element>
+    <element name="Nature">2</element>
+    <element name="Arcana">3</element>
+    <element name="Generic">4</element>
+    <element name="Small">5</element>
+    <element name="Large">6</element>
+    <element name="Medium">7</element>
+    <element name="Treasure">8</element>
+    <element name="Skill">9</element>
+    <element name="UGC">10</element>
+  </elements>
 </enum>

@@ -2,8 +2,26 @@
 <enum name="UISize">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Chatwindowlogtopspacing">0</element>
+    <element name="Statustextentrypadding">0</element>
     <element name="CodeHalfStep">4</element>
+    <element name="Tableftmargin">5</element>
+    <element name="Tabspacing">5</element>
+    <element name="Tabrightmargin">5</element>
     <element name="CodeStep">8</element>
+    <element name="Spacer">8</element>
+    <element name="Innerpaneshorizontalspacing">8</element>
+    <element name="Buttonspacing">8</element>
+    <element name="Innerpanesverticalspacing">8</element>
+    <element name="Sliderleftarrowwidth">15</element>
+    <element name="Sliderrightarrowwidth">15</element>
     <element name="CodeDoubleStep">16</element>
+    <element name="Titlebarmargin">20</element>
+    <element name="Sliderrightarrowwidthplusspacer">23</element>
+    <element name="Sliderleftarrowwidthplusspacer">23</element>
+    <element name="Optionstextentrywidth">50</element>
+    <element name="Buttonbarmargin">60</element>
+    <element name="Tabmargin">75</element>
+    <element name="Offscreenentitygenbottominset">120</element>
   </elements>
 </enum>

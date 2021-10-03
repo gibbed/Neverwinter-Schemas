@@ -3,7 +3,7 @@
   <table>
     <column type="STRUCT">
       <offset>0</offset>
-      <subtable external="ZoneMapInfo" />
+      <subtable external="LoadingScreenGroup" />
     </column>
     <column name="Version" type="IGNORE" />
     <column name="{" type="IGNORE" />

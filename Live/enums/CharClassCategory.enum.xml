@@ -2,5 +2,15 @@
 <enum name="CharClassCategory">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Trickster">1</element>
+    <element name="Guardian">2</element>
+    <element name="Greatweapon">3</element>
+    <element name="Devoted">4</element>
+    <element name="Battle">5</element>
+    <element name="Control">6</element>
+    <element name="Scourge">7</element>
+    <element name="Archer">8</element>
+    <element name="Paladin">9</element>
+    <element name="Bard">10</element>
   </elements>
 </enum>

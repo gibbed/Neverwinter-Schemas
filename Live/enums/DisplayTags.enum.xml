@@ -1,6 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="DisplayTags">
   <elements type="int">
-    <element name="kDisplayTag_NONE">-1</element>
+    <element name="None">-1</element>
+    <element name="TestAds">0</element>
+    <element name="TestAdsLarge">1</element>
+    <element name="TestAdsSmall">2</element>
+    <element name="Large">3</element>
+    <element name="SmallLeft">4</element>
+    <element name="SmallMiddle">5</element>
+    <element name="SmallRight">6</element>
+    <element name="StoreFront">7</element>
+    <element name="CampaignUnderdark">8</element>
+    <element name="MountWindow">9</element>
+    <element name="CampaignPortobelloQueueA">10</element>
+    <element name="CampaignPortobelloQueueB">11</element>
+    <element name="CampaignPortobelloContestA">12</element>
+    <element name="CampaignPortobelloContestB">13</element>
+    <element name="CampaignPortobelloProfessionsA">14</element>
+    <element name="CampaignPortobelloProfessionsB">15</element>
+    <element name="WhatsNew">16</element>
+    <element name="PlayingTips">17</element>
+    <element name="WelcomeBack">18</element>
+    <element name="CampaignAcqInc">19</element>
+    <element name="PvPLeaderboard">20</element>
+    <element name="RedeemedCitadelChallengeA">21</element>
+    <element name="RedeemedCitadelChallengeB">22</element>
+    <element name="RedeemedCitadelQueueA">23</element>
+    <element name="RedeemedCitadelQueueB">24</element>
+    <element name="RedeemedCitadelHardcoreQueueA">25</element>
+    <element name="RedeemedCitadelHardcoreQueueB">26</element>
+    <element name="RedeemedCitadelHomeAdNowAvailable">27</element>
+    <element name="RedeemedCitadelHomeAdComingSoon">28</element>
   </elements>
 </enum>

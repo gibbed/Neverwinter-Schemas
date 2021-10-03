@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="DamageAlias">
+  <elements type="int">
+    <element name="None">0</element>
+    <element name="Physical">1</element>
+    <element name="Arcane">2</element>
+    <element name="Acid">3</element>
+    <element name="Cold">4</element>
+    <element name="Fire">5</element>
+    <element name="Force">6</element>
+    <element name="Lightning">7</element>
+    <element name="Necrotic">8</element>
+    <element name="Poison">9</element>
+    <element name="Psychic">10</element>
+    <element name="Radiant">11</element>
+    <element name="Thunder">12</element>
+    <element name="Spellplague_Fire">13</element>
+    <element name="Unavoidable">14</element>
+    <element name="Projectile">15</element>
+  </elements>
+</enum>

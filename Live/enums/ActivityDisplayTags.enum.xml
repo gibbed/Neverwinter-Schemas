@@ -2,5 +2,29 @@
 <enum name="ActivityDisplayTags">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Contest">1</element>
+    <element name="Calendar">2</element>
+    <element name="Monthly">3</element>
+    <element name="Daily">4</element>
+    <element name="Sidepanel">5</element>
+    <element name="Skirmish">6</element>
+    <element name="GG">7</element>
+    <element name="Celestial_Coin_Expire_Delay">8</element>
+    <element name="Contest_Noscore">9</element>
+    <element name="Multiday">10</element>
+    <element name="Tiamat">11</element>
+    <element name="Shard_Invest_On">12</element>
+    <element name="Shard_Invest_Off">13</element>
+    <element name="Dreadring_Daily">14</element>
+    <element name="Position_Event_Day">15</element>
+    <element name="Position_Event_Upper">16</element>
+    <element name="Position_Event_Lower">17</element>
+    <element name="Position_Event_Base">18</element>
+    <element name="FeaturedEpisode">19</element>
+    <element name="Event_HUD">20</element>
+    <element name="MTSale">21</element>
+    <element name="Event_No_Calendar">22</element>
+    <element name="Special_Pvp">23</element>
+    <element name="RedeemedCitadel">24</element>
   </elements>
 </enum>

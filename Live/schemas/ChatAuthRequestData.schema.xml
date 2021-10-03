@@ -7,23 +7,24 @@
       </flags>
     </column>
     <column name="{" type="START" />
-    <column name="uAccountID" type="INT">
+    <column name="Uaccountid" type="INT">
       <offset>0</offset>
     </column>
-    <column name="uCharacterID" type="INT">
+    <column name="Ucharacterid" type="INT">
       <offset>4</offset>
     </column>
-    <column name="uAccountAccessLevel" type="INT">
+    <column name="Uaccountaccesslevel" type="INT">
       <offset>8</offset>
     </column>
-    <column name="SocialRestricted" type="U8">
+    <column name="Gamepermissioninfo" type="INT">
       <offset>12</offset>
+      <static_define_list external="ChatGamePermissionInfoEnum" />
     </column>
     <column name="AccountName" type="STRING">
       <offset>16</offset>
     </column>
     <column name="DisplayName" type="STRING">
-      <offset>20</offset>
+      <offset>24</offset>
     </column>
     <column name="}" type="END" />
   </table>

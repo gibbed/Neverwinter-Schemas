@@ -2,5 +2,19 @@
 <enum name="MissionUIType">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Contract">1</element>
+    <element name="Dungeon_Event_Reward">2</element>
+    <element name="Event">3</element>
+    <element name="Hotspot">4</element>
+    <element name="Hotspot_A">5</element>
+    <element name="Hotspot_A_Generic">6</element>
+    <element name="Hotspot_B">7</element>
+    <element name="Hotspot_C">8</element>
+    <element name="Hotspot_Incursion">9</element>
+    <element name="Hotspot_Pvp">10</element>
+    <element name="Main">11</element>
+    <element name="Se_Cotg_Control">12</element>
+    <element name="Skirmish_Event_Reward">13</element>
+    <element name="Team">14</element>
   </elements>
 </enum>

@@ -2,5 +2,32 @@
 <enum name="DonationTaskCategoryType">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Player_Main">1</element>
+    <element name="Player_Power">2</element>
+    <element name="Player_Power_Progress">3</element>
+    <element name="Player_Power_Progress_Repeat">4</element>
+    <element name="Player_Dungeon">5</element>
+    <element name="Player_Gear">6</element>
+    <element name="Player_Gem">7</element>
+    <element name="Player_Donate">8</element>
+    <element name="Guild_Main">9</element>
+    <element name="PVP_Group1">10</element>
+    <element name="PVP_Group2">11</element>
+    <element name="PVP_Group3">12</element>
+    <element name="PVP_Main">13</element>
+    <element name="PVP_Main_Boon">14</element>
+    <element name="Player_Patron_Create">15</element>
+    <element name="Player_Patron_Consume">16</element>
+    <element name="RedeemedCitadel_Phase1">17</element>
+    <element name="RedeemedCitadel_Phase2">18</element>
+    <element name="RedeemedCitadel_Phase3">19</element>
+    <element name="RedeemedCitadel_Phase4">20</element>
+    <element name="RedeemedCitadel_PremiumPhase1">21</element>
+    <element name="RedeemedCitadel_PremiumPhase2">22</element>
+    <element name="RedeemedCitadel_PremiumPhase3">23</element>
+    <element name="RedeemedCitadel_PremiumPhase4">24</element>
+    <element name="SeasonPass_Normal">25</element>
+    <element name="SeasonPass_Premium">26</element>
+    <element name="SeasonPass_FinalUnlock">27</element>
   </elements>
 </enum>

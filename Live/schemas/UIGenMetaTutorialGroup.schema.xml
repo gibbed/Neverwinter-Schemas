@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parser name="UIGenMetaTutorialGroup">
+  <table>
+    <column name="UIGenMetaTutorialGroup" type="IGNORE">
+      <flags>
+        <flag>PARSETABLE_INFO</flag>
+      </flags>
+    </column>
+    <column name="{" type="START" />
+    <column name="Name" type="STRING">
+      <offset>0</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+        <flag>STRUCTPARAM</flag>
+        <flag>REQUIRED</flag>
+        <flag>KEY</flag>
+      </flags>
+    </column>
+    <column name="DisplayName" type="REFERENCE">
+      <offset>8</offset>
+      <dictionary_name>Message</dictionary_name>
+    </column>
+    <column name="Description" type="REFERENCE">
+      <offset>16</offset>
+      <dictionary_name>Message</dictionary_name>
+    </column>
+    <column name="Overrideinitx_Pc" type="INT">
+      <offset>24</offset>
+      <default>-9999</default>
+    </column>
+    <column name="Overrideinity_Pc" type="INT">
+      <offset>28</offset>
+      <default>-9999</default>
+    </column>
+    <column name="Overrideinitx_Gamebox" type="INT">
+      <offset>32</offset>
+      <default>-9999</default>
+    </column>
+    <column name="Overrideinity_Gamebox" type="INT">
+      <offset>36</offset>
+      <default>-9999</default>
+    </column>
+    <column name="Tutorial" type="STRINGARRAY">
+      <offset>40</offset>
+    </column>
+    <column name="Tutorialentries" type="STRUCT">
+      <offset>48</offset>
+      <flags>
+        <flag>NO_TEXT_SAVE</flag>
+      </flags>
+      <subtable external="UIGenTutorial" />
+    </column>
+    <column name="}" type="END" />
+  </table>
+</parser>

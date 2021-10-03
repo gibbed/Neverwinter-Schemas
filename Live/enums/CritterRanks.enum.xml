@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="CritterRanks">
+  <elements type="int">
+    <element name="Add_Rank">0</element>
+    <element name="Minion">1</element>
+    <element name="Standard">2</element>
+    <element name="Elite">3</element>
+    <element name="Solo">4</element>
+    <element name="Mini">5</element>
+    <element name="Boss">6</element>
+  </elements>
+</enum>

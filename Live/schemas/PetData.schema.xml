@@ -10,45 +10,83 @@
     <column name="Entity" type="OPTIONALSTRUCT">
       <offset>0</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>UNOWNED</flag>
       </flags>
       <subtable external="Entity" />
     </column>
-    <column name="AiState" type="STRING">
-      <offset>4</offset>
-      <flags>
-        <flag>POOL_STRING</flag>
-      </flags>
-    </column>
-    <column name="AiStance" type="STRING">
+    <column name="Aistate" type="STRING">
       <offset>8</offset>
       <flags>
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="Name" type="STRING">
-      <offset>12</offset>
+    <column name="Aistance" type="STRING">
+      <offset>16</offset>
       <flags>
-        <flag>UNKNOWN_32</flag>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Name" type="STRING">
+      <offset>24</offset>
+      <flags>
+        <flag>UNOWNED</flag>
       </flags>
     </column>
     <column name="Level" type="INT">
-      <offset>16</offset>
+      <offset>32</offset>
     </column>
-    <column name="CombatLevel" type="INT">
-      <offset>20</offset>
+    <column name="Combatlevel" type="INT">
+      <offset>36</offset>
+    </column>
+    <column name="Uicreatepowerid" type="INT">
+      <offset>40</offset>
+    </column>
+    <column name="Uicreateattribmodidx" type="INT">
+      <offset>44</offset>
+    </column>
+    <column name="Uicreateattribmodcount" type="INT">
+      <offset>48</offset>
+    </column>
+    <column name="Power" type="OPTIONALSTRUCT">
+      <offset>56</offset>
+      <flags>
+        <flag>UNOWNED</flag>
+      </flags>
+      <subtable external="Power" />
+    </column>
+    <column name="PowerDef" type="OPTIONALSTRUCT">
+      <offset>64</offset>
+      <flags>
+        <flag>UNOWNED</flag>
+      </flags>
+      <subtable external="PowerDef" />
+    </column>
+    <column name="Icon" type="STRING">
+      <offset>72</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Stackidx" type="INT">
+      <offset>80</offset>
+    </column>
+    <column name="Summonidx" type="INT">
+      <offset>84</offset>
     </column>
     <column name="Pet" type="BIT">
-      <offset>24</offset>
+      <offset>88</offset>
       <bit_offset>65536</bit_offset>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Summon" type="BIT">
-      <offset>24</offset>
+      <offset>88</offset>
       <bit_offset>65537</bit_offset>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="Dead" type="BIT">
-      <offset>24</offset>
+      <offset>88</offset>
       <bit_offset>65538</bit_offset>
+      <format>INT_WAS_BOOL</format>
     </column>
     <column name="}" type="END" />
   </table>

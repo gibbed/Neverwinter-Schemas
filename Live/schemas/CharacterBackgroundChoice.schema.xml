@@ -16,28 +16,27 @@
       </flags>
     </column>
     <column name="DisplayName" type="EMBEDDEDSTRUCT">
-      <offset>4</offset>
+      <offset>8</offset>
       <subtable external="DisplayMessage" />
     </column>
-    <column name="FlavorText" type="EMBEDDEDSTRUCT">
-      <offset>16</offset>
+    <column name="Flavortext" type="EMBEDDEDSTRUCT">
+      <offset>32</offset>
       <subtable external="DisplayMessage" />
     </column>
-    <column name="BioText" type="EMBEDDEDSTRUCT">
-      <offset>28</offset>
+    <column name="Biotext" type="EMBEDDEDSTRUCT">
+      <offset>56</offset>
       <subtable external="DisplayMessage" />
     </column>
-    <column name="GrantedItem" type="STRINGARRAY">
-      <offset>40</offset>
+    <column name="Granteditem" type="STRINGARRAY">
+      <offset>80</offset>
       <flags>
         <flag>POOL_STRING</flag>
         <flag>GLOBAL_NAME</flag>
-        <flag>SERVER_ONLY</flag>
       </flags>
       <dictionary_name>ItemDef</dictionary_name>
     </column>
-    <column name="PowerTreeNode" type="STRINGARRAY">
-      <offset>44</offset>
+    <column name="Powertreenode" type="STRINGARRAY">
+      <offset>88</offset>
       <flags>
         <flag>POOL_STRING</flag>
         <flag>GLOBAL_NAME</flag>

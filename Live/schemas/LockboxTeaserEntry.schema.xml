@@ -7,12 +7,15 @@
       </flags>
     </column>
     <column name="{" type="START" />
-    <column name="TeaserType" type="INT">
+    <column name="Teasertype" type="INT">
       <offset>0</offset>
       <static_define_list external="LockboxTeaserType" />
     </column>
-    <column name="TeaserValue" type="STRING">
-      <offset>4</offset>
+    <column name="Teaservalue" type="STRING">
+      <offset>8</offset>
+    </column>
+    <column name="Teasercount" type="INT">
+      <offset>16</offset>
     </column>
     <column name="}" type="END" />
   </table>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="StickerBookCollectionType">
+  <elements type="int">
+    <element name="Unspecified">0</element>
+    <element name="Zone">1</element>
+    <element name="Companion">2</element>
+    <element name="Other">3</element>
+  </elements>
+</enum>

@@ -7,7 +7,7 @@
       </flags>
     </column>
     <column name="{" type="START" />
-    <column name="LockboxMetadata" type="STRUCT">
+    <column name="Lockboxmetadata" type="STRUCT">
       <offset>0</offset>
       <subtable external="LockboxMetadataDef" />
     </column>

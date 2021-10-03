@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="SimpleMonitoringState">
+  <elements type="int">
+    <element name="CONNECTED">0</element>
+    <element name="STALLED">1</element>
+    <element name="DISCONNECTED">2</element>
+    <element name="GONE">3</element>
+    <element name="CRASHED">4</element>
+    <element name="FORWARDING_LOST">5</element>
+  </elements>
+</enum>

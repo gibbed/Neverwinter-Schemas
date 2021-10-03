@@ -2,5 +2,27 @@
 <enum name="PTRespecGroupType">
   <elements type="int">
     <element name="kPTRespecGroup_ALL">0</element>
+    <element name="Powers">1</element>
+    <element name="Feats">2</element>
+    <element name="Attributes">3</element>
+    <element name="Paragon">4</element>
+    <element name="Boons">5</element>
+    <element name="Campaign_Boons_Pve">6</element>
+    <element name="Campaign_Chult">7</element>
+    <element name="Campaign_Ascendancy">8</element>
+    <element name="Campaign_Stormking">9</element>
+    <element name="Campaign_Icewinddale">10</element>
+    <element name="Campaign_Dreadring">11</element>
+    <element name="Campaign_Sharandar">12</element>
+    <element name="Campaign_Tyrannyofdragons">13</element>
+    <element name="Campaign_Gauntlgrym">14</element>
+    <element name="Campaign_Underdark">15</element>
+    <element name="Campaign_Elemental_evil">16</element>
+    <element name="Campaign_PvP1">17</element>
+    <element name="Campaign_PvP2">18</element>
+    <element name="Campaign_Ravenloft">19</element>
+    <element name="Campaign_Omu">20</element>
+    <element name="Campaign_Acqinc">21</element>
+    <element name="Deities">22</element>
   </elements>
 </enum>

@@ -2,5 +2,30 @@
 <enum name="StoreCategory">
   <elements type="int">
     <element name="None">0</element>
+    <element name="ArmorCloth">1</element>
+    <element name="ArmorLeather">2</element>
+    <element name="ArmorChain">3</element>
+    <element name="ArmorScale">4</element>
+    <element name="ArmorPlate">5</element>
+    <element name="EquipArm">6</element>
+    <element name="EquipFeet">7</element>
+    <element name="EquipHand">8</element>
+    <element name="EquipHead">9</element>
+    <element name="EquipNeck">10</element>
+    <element name="EquipFinger">11</element>
+    <element name="EquipWaist">12</element>
+    <element name="WeaponMeleeLight">13</element>
+    <element name="WeaponMeleeMedium">14</element>
+    <element name="WeaponMeleeHeavy">15</element>
+    <element name="WeaponRangedPierce">16</element>
+    <element name="WeaponRangedBlunt">17</element>
+    <element name="WeaponImplementStaff">18</element>
+    <element name="WeaponImplementSymbol">19</element>
+    <element name="WeaponImplementWand">20</element>
+    <element name="ArmourShieldLight">21</element>
+    <element name="ArmourShieldHeavy">22</element>
+    <element name="Pet">23</element>
+    <element name="PetEnhancement">24</element>
+    <element name="PetBoost">25</element>
   </elements>
 </enum>

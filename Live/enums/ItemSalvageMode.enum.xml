@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enum name="ItemSalvageMode">
+  <elements type="int">
+    <element name="Default">0</element>
+    <element name="BlackIce">1</element>
+    <element name="Insignia">2</element>
+    <element name="Refinement">3</element>
+    <element name="Tod_Campaign">4</element>
+  </elements>
+</enum>

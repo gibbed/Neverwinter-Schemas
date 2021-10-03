@@ -2,5 +2,6 @@
 <enum name="ControlSchemeRegionType">
   <elements type="int">
     <element name="None">0</element>
+    <element name="Ground">1</element>
   </elements>
 </enum>

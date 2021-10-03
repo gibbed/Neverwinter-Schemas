@@ -6,5 +6,6 @@
     <element name="FreeToken">2</element>
     <element name="FreeFlexToken">3</element>
     <element name="GADToken">4</element>
+    <element name="CostumeChangeNumeric">5</element>
   </elements>
 </enum>

@@ -2,5 +2,36 @@
 <enum name="SkelBoneVisibilitySet">
   <elements type="int">
     <element name="None">-1</element>
+    <element name="2h_Hide_L_Rhanded">0</element>
+    <element name="2h_Hide_R_Lhanded">1</element>
+    <element name="Armed">2</element>
+    <element name="Bard_Shortsword">3</element>
+    <element name="Bart_Lute">4</element>
+    <element name="Bart_Lute_Left">5</element>
+    <element name="Bird_Legs">6</element>
+    <element name="Bird_Wingcap">7</element>
+    <element name="Bird_Wings">8</element>
+    <element name="Cin_Wep_Mount">9</element>
+    <element name="Equip_Allclass_Item">10</element>
+    <element name="Equip_Bow">11</element>
+    <element name="Equip_Kukri">12</element>
+    <element name="Fashion">13</element>
+    <element name="Hide_All">14</element>
+    <element name="Hide_All_Weapons">15</element>
+    <element name="Hide_Cape">16</element>
+    <element name="Hide_Head">17</element>
+    <element name="Hide_Lower_Body">18</element>
+    <element name="Hide_Shield">19</element>
+    <element name="Hide_Skirt">20</element>
+    <element name="Hide_Tail">21</element>
+    <element name="Hide_Vehicle">22</element>
+    <element name="Mount_A">23</element>
+    <element name="Mount_Backpack">24</element>
+    <element name="Show_All">25</element>
+    <element name="Ubc_Bottom">26</element>
+    <element name="Ubc_Middle">27</element>
+    <element name="Unarmed">28</element>
+    <element name="Unarmed_L_Weapon">29</element>
+    <element name="Unarmed_R_Weapon">30</element>
   </elements>
 </enum>

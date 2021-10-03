@@ -4,5 +4,7 @@
     <element name="None">0</element>
     <element name="Remove">1</element>
     <element name="Reset">2</element>
+    <element name="Reroll">3</element>
+    <element name="ExclusiveReset">4</element>
   </elements>
 </enum>

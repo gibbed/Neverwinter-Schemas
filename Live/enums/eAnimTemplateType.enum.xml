@@ -11,5 +11,7 @@
     <element name="Block">7</element>
     <element name="TPose">8</element>
     <element name="PowerInterruptingHitReact">9</element>
+    <element name="Movement">10</element>
+    <element name="PowerWhileBlocking">11</element>
   </elements>
 </enum>

@@ -1,7 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <enum name="ItemGemType">
   <elements type="int">
-    <element name="None">0</element>
     <element name="Any">-1</element>
+    <element name="None">0</element>
+    <element name="ItemOffense">1</element>
+    <element name="ItemDefense">2</element>
+    <element name="ItemUtility">4</element>
+    <element name="Pet">8</element>
+    <element name="PetOffense">16</element>
+    <element name="PetDefense">32</element>
+    <element name="PetBondingRunestone">64</element>
+    <element name="WeaponEnhancement">128</element>
+    <element name="ArmorEnhancement">256</element>
+    <element name="Shard">512</element>
+    <element name="CorruptEnhancement">1024</element>
+    <element name="ItemReinforced">2048</element>
+    <element name="ArtifactClassFeature">4096</element>
+    <element name="ArtifactAtWill">8192</element>
+    <element name="ArtifactStat1">16384</element>
+    <element name="ItemJewelcrafting">32768</element>
+    <element name="ItemReinforcedShirtPants">65536</element>
+    <element name="SetBonus">131072</element>
+    <element name="MountA">262144</element>
+    <element name="MountB">524288</element>
+    <element name="MountC">1048576</element>
+    <element name="MountD">2097152</element>
+    <element name="MountE">4194304</element>
+    <element name="MountUniversal">8126464</element>
+    <element name="Collar">8388608</element>
+    <element name="MountCombinedA">16777216</element>
+    <element name="MountCombinedB">33554432</element>
+    <element name="MountCombinedC">67108864</element>
+    <element name="MountCombinedD">134217728</element>
+    <element name="MountCombinedE">268435456</element>
+    <element name="MountUniversalCombined">528220160</element>
   </elements>
 </enum>

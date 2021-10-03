@@ -13,26 +13,26 @@
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="DisplayNameKey" type="STRING">
-      <offset>4</offset>
-      <flags>
-        <flag>POOL_STRING</flag>
-      </flags>
-    </column>
-    <column name="FlavorTextKey" type="STRING">
+    <column name="Displaynamekey" type="STRING">
       <offset>8</offset>
       <flags>
         <flag>POOL_STRING</flag>
       </flags>
     </column>
-    <column name="BioTextKey" type="STRING">
-      <offset>12</offset>
+    <column name="Flavortextkey" type="STRING">
+      <offset>16</offset>
+      <flags>
+        <flag>POOL_STRING</flag>
+      </flags>
+    </column>
+    <column name="Biotextkey" type="STRING">
+      <offset>24</offset>
       <flags>
         <flag>POOL_STRING</flag>
       </flags>
     </column>
     <column name="Powers" type="STRING">
-      <offset>16</offset>
+      <offset>32</offset>
       <flags>
         <flag>ESTRING</flag>
       </flags>
